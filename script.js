@@ -47,3 +47,9 @@ ctx.lineTo(250, 200)
 ctx.closePath()
 ctx.stroke()
 
+// Rectangle
+ctx.beginPath()
+ctx.rect(300, 50, 150, 100)
+ctx.fillStyle = 'teal'
+ctx.fill()
+
